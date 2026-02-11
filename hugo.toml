@@ -11,6 +11,8 @@ mainSections = ["posts"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.ico"
+customSCSS = ["scss/custom.scss"]
+
 
 [params.sidebar]
 subtitle = "专业课 | 科研 | 杂七杂八的涉猎 | 机器人"
@@ -54,6 +56,3 @@ page = [
   name = "GitHub"
   url = "https://github.com/Ethereal-26857"
   weight = 3
-
-[params]
-customSCSS = ["scss/custom.scss"]
