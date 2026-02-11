@@ -1,36 +1,57 @@
 baseURL = "https://ethereal-26857.github.io/LearningNotes/"
 languageCode = "zh-cn"
 title = "Anne 的学习笔记"
-theme = "PaperMod"
+theme = "stack"
+
+paginate = 5
 
 [params]
-defaultTheme = "auto"
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowToc = true
-ShowWordCount = true
+mainSections = ["posts"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "/favicon.ico"
 
-[params.homeInfoParams]
-Title = "Anne 的学习笔记"
-Content = "记录技术 · 编程 · 嵌入式 · 思考"
+[params.sidebar]
+subtitle = "专业课 | 科研 | 杂七杂八的涉猎 | 机器人"
+avatar.enabled = true
+avatar.local = true
+avatar.src = "img/avatar.jpg"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/Ethereal-26857"
+[params.article]
+headingAnchor = true
+math = true
+readingTime = true
+
+[params.footer]
+since = 2024
+
+[params.dateFormat]
+published = "2006-01-02"
+
+[params.widgets]
+homepage = [
+  { type = "search" },
+  { type = "archives" },
+  { type = "tag-cloud" }
+]
+
+page = [
+  { type = "toc" }
+]
 
 [menu]
 
   [[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
-  weight = 10
+  name = "首页"
+  url = "/"
+  weight = 1
 
   [[menu.main]]
-  identifier = "github"
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
+  [[menu.main]]
   name = "GitHub"
   url = "https://github.com/Ethereal-26857"
-  weight = 20
+  weight = 3
