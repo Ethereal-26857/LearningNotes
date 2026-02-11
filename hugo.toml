@@ -14,11 +14,7 @@ favicon = "/favicon.ico"
 
 [params.sidebar]
 subtitle = "专业课 | 科研 | 杂七杂八的涉猎 | 机器人"
-
-[params.sidebar.avatar]
-enabled = true
-local = true
-src = "img/avatar.jpg"
+avatar = "/img/avatar.jpg"
 
 [params.article]
 headingAnchor = true
