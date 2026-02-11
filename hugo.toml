@@ -1,7 +1,36 @@
-baseURL = "https://Ethereal-26857.github.io/"
+baseURL = "https://ethereal-26857.github.io/LearningNotes/"
 languageCode = "zh-cn"
-title = "Anne 的网站"
+title = "Anne 的学习笔记"
 theme = "PaperMod"
+
 [params]
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+ShowWordCount = true
+
+[params.homeInfoParams]
+Title = "Anne 的学习笔记"
+Content = "记录技术 · 编程 · 嵌入式 · 思考"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Ethereal-26857"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/Ethereal-26857"
+  weight = 20
