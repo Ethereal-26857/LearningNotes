@@ -1,0 +1,4 @@
+/* 头像改为方形 */
+.sidebar .avatar img {
+    border-radius: 0 !important;   /* 0 = 方形，8px=圆角方形 */
+}
