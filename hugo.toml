@@ -1,0 +1,7 @@
+baseURL = "https://Ethereal-26857.github.io/"
+languageCode = "zh-cn"
+title = "Anne 的网站"
+theme = "PaperMod"
+[params]
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
